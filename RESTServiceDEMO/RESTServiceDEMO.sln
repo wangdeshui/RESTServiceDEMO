@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTServieDEMO.Service", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTServiceDEMO.WEB", "RESTServiceDEMO.WEB\RESTServiceDEMO.WEB.csproj", "{5BEE8C15-3B9A-405C-8713-4300D5EDC364}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTServiceDEMO.WCFHOST", "RESTServiceDEMO.WCFHOST\RESTServiceDEMO.WCFHOST.csproj", "{CECDD1AC-C0EB-46E9-B9CB-62E3ECED7FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TESTWCF", "TESTWCF\TESTWCF.csproj", "{81E2ADC0-26A4-4AE2-BB05-EFD6EDDF8E0A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CECDD1AC-C0EB-46E9-B9CB-62E3ECED7FB1} = {CECDD1AC-C0EB-46E9-B9CB-62E3ECED7FB1}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +32,14 @@ Global
 		{5BEE8C15-3B9A-405C-8713-4300D5EDC364}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BEE8C15-3B9A-405C-8713-4300D5EDC364}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BEE8C15-3B9A-405C-8713-4300D5EDC364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CECDD1AC-C0EB-46E9-B9CB-62E3ECED7FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECDD1AC-C0EB-46E9-B9CB-62E3ECED7FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECDD1AC-C0EB-46E9-B9CB-62E3ECED7FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECDD1AC-C0EB-46E9-B9CB-62E3ECED7FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E2ADC0-26A4-4AE2-BB05-EFD6EDDF8E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E2ADC0-26A4-4AE2-BB05-EFD6EDDF8E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E2ADC0-26A4-4AE2-BB05-EFD6EDDF8E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E2ADC0-26A4-4AE2-BB05-EFD6EDDF8E0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
