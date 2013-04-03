@@ -11,7 +11,7 @@ namespace RESTServiceDEMO.DataContract
     public interface IRestService
     {
         [OperationContract]
-        [WebInvoke(UriTemplate = "GetPersons", Method = "POST")]
+        [WebInvoke(UriTemplate = "GetXX", Method = "POST")]
         GetPersonReponse GetPersons(GetPresonRequest request);
     }
 }
